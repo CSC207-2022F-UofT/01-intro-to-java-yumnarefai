@@ -62,7 +62,6 @@ public class Basics {
          */
         int my_variable = 100;
 
-        System.out.println(str);
 
 
         /* Do not remove the line below: if you did task 2 correctly, then
@@ -143,6 +142,9 @@ public class Basics {
          *                you may use them if you wish.
          */
         StringBuilder ret = new StringBuilder();
+        String[] seven_words = to_split.split(" ");
+        for (int i = 0; i < 7; i++)
+            ret.append(seven_words[i].charAt(0));
 
         // Fill in the rest of the body here
 
